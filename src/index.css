@@ -1,13 +1,81 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+body {
+  font-family: 'Poppins',Roboto, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  line-height: 2.1428;
+  color: #666666;
+  -webkit-overflow-scrolling: touch;
+}
+
+.carousel-control-next-icon {
+  background-image:none;
+}
+
+.carousel-control-prev-icon {
+  background-image:none;
+}
+
+.BannerPage{
+  margin-top: 3rem;
+}
+.BannerPage img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.section-subtitle {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 1.142rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #cee002;
+  margin-bottom: 1rem;
+}
+
+h2, .h2 {
+  font-weight: 600;
+  font-size: 2.571rem;
+  line-height: 1.166;
+  color: #000;
+  letter-spacing: 0;
+  margin: 2.6rem 0;
+}
+
+.YearsOfExperience{
+  display: flex;
+  align-items: center;
+}
+
+.YearsOfExperience h1{
+  font-size: 8rem;
+  font-weight: bolder;
+  color: #000;
+  padding-right: 1rem;
+  padding-left: 6rem;
+  padding-top: 1rem;
+  border-top:  10px double #cee002;
+  border-left:  10px double #cee002;
+  border-bottom: 10px double #cee002;
+}
+
+.YearsOfExperience p{
+  display: inline-block;
+  vertical-align: middle;
+  margin: -1rem 0 0 0.8rem;
+  font-size: 1.57rem;
+  line-height: 1.181;
+  color: #000;
 }
