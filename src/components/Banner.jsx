@@ -1,24 +1,30 @@
-import React from 'react';
-import { MDBContainer, MDBRow, MDBCol } from 'mdb-react-ui-kit';
-import banner from '../components/images/banner.jpg';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import banner from '../components/images/banner.jpg'
+import Box from '@mui/material/Box';
 
-export default function App() {
+function ResponsiveExample() {
   return (
-    <MDBContainer>
-      <MDBRow around className='BannerPage'>
-        <MDBCol size='8' >
+    <Container>
+      {/* Stack the columns on mobile by making one full-width and the other half-width */}
+      <Row className='BannerPage'>
+        <Col  xs={12} md={8}>
           <h1 className='section-subtitle'>ABOUT US</h1>
           <h2>We Are The Leader In The <br /> Architectural</h2>
-          <p>For each project we establish relationships with partners who we know will <br /> help us create added value for your project. As well as bringing together the <br /> public and private sectors, we make sector-overarching links to gather <br /> knowledge and to learn from each other</p>
-          <div className='YearsOfExperience'>
-            <h1>26</h1>
-            <p>Years <br /> Of Working <br />  Experience </p>
-          </div>
-        </MDBCol>
-        <MDBCol size='4' >
-          <img src={banner} />
-        </MDBCol>
-      </MDBRow>
-    </MDBContainer>
+          <p>For each project we establish relationships with partners who we know will  help us create added value for your project. As well as bringing together the public and private sectors, we make sector-overarching links to gather knowledge and to learn from each other</p>
+          <Box className='YearsOfExperience'>
+            <h1>26</h1> 
+            <p>Years <br /> Of Working <br /> Experience </p>
+          </Box>
+
+        </Col>
+        <Col xs={6} md={4}>
+          <img src={banner} alt='Thanks'/>
+        </Col>
+      </Row>
+    </Container>
   );
 }
+
+export default ResponsiveExample;

@@ -41,7 +41,7 @@ function UncontrolledExample() {
         />
 
         <Carousel.Caption>
-          <h3>Redisign Interior for Villa</h3>
+          <h3>Re-design Interior for Villa</h3>
           <p>
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
           </p>
