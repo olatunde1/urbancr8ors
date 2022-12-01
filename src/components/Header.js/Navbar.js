@@ -14,7 +14,7 @@ import MenuItem from '@mui/material/MenuItem';
 import logo from '../images/logo.png';
 import whatsapp from '../images/WhatsApp_icon.png'
 
-const pages = ['HOME', 'ABOUT', 'PROJECTS', 'CLIENTS', 'TEAM', 'CONTACTS'];
+const pages = ['HOME', 'ABOUT', 'PROJECTS', 'GALLERY', 'CLIENTS', 'TEAM', 'CONTACTS'];
 
 
 function Navbar() {

@@ -10,15 +10,13 @@ import {
 } from 'mdb-react-ui-kit';
 import { Box } from '@mui/material';
 import { Container } from 'react-bootstrap';
-import Example from './Projects/projectOne'
+import 'boxicons';
 
 export default function App() {
   return (
     <Box className='latest'>
         <Container>
         <h1 className='latestProjectCaption'>LATEST PROJECTS</h1>
-        {/* <div class="vertical-title hidden-xs hidden-sm"><span>our works</span></div> */}
-        {/* <marquee>The Best Among Equal</marquee> */}
             <MDBRow className='row-cols-1 row-cols-md-2 g-4'>
                 <MDBCol sm='6'>
                     <MDBCard className='eachCard'>
@@ -29,7 +27,7 @@ export default function App() {
                         <MDBCardText>
                         With supporting text below as a natural lead-in to additional content.
                         </MDBCardText>
-                        <MDBBtn className='action' onClick={ <Example />}>See Project <i class="icon ion-ios-arrow-right"></i></MDBBtn>
+                        <MDBBtn className='action' >See Project</MDBBtn>
                     </MDBCardBody>
                     </MDBCard>
                     
@@ -43,7 +41,7 @@ export default function App() {
                         <MDBCardText>
                         With supporting text below as a natural lead-in to additional content.
                         </MDBCardText>
-                        <MDBBtn className='action' href='#'>Go somewhere</MDBBtn>
+                        <MDBBtn className='action' href='#'>See Project</MDBBtn>
                     </MDBCardBody>
                     </MDBCard>
                 </MDBCol>
@@ -56,7 +54,7 @@ export default function App() {
                         <MDBCardText>
                         With supporting text below as a natural lead-in to additional content.
                         </MDBCardText>
-                        <MDBBtn className='action' href='#'>Go somewhere</MDBBtn>
+                        <MDBBtn className='action' href='#'>See Project</MDBBtn>
                     </MDBCardBody>
                     </MDBCard>
                 </MDBCol>
@@ -69,7 +67,7 @@ export default function App() {
                         <MDBCardText>
                         With supporting text below as a natural lead-in to additional content.
                         </MDBCardText>
-                        <MDBBtn className='action' href='#'>Go somewhere</MDBBtn>
+                        <MDBBtn className='action' href='#'>See Project</MDBBtn>
                     </MDBCardBody>
                     </MDBCard>
                 </MDBCol>

@@ -32,10 +32,7 @@ body {
   margin-top: 3rem;
   margin-bottom: 6rem;
 }
-.BannerPage img{
-  max-width: 100%;
-  height: auto;
-}
+
 .section-subtitle {
   display: inline-block;
   font-weight: 500;
@@ -107,62 +104,6 @@ h2 {
   font-weight: 800;
 }
 
-/* .scrollable-projects .vertical-title {
-  top: 7.4rem;
-}
-
-.vertical-title span {
-  display: block;
-  float: left;
-} */
-
-/* .vertical-title {
-  position: absolute;
-  white-space: nowrap;
-  width: 0;
-  top: -0.55rem;
-  left: 4.9rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  -webkit-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  -o-transform: rotate(-90deg);
-  transform: rotate(-90deg);
-} */
-
-/* .vertical-centred {
-  width: 100%;
-  height: 100%;
-  display: inline-block;
-  vertical-align: middle;
-  white-space: normal;
-  font-size: 1rem;
-} */
-
-/* ::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
-}
-
-::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
-}
-
-::-webkit-scrollbar-thumb {
-  cursor: pointer;
-  background: #cee002;
-  border-radius: 10px;
-}
-
-::selection {
-  background-color: #cee002;
-  color: #fff;
-} */
-
-
-
 .eachCard {
   background-color: transparent;
   border: 1px solid #cee002 ;
@@ -175,12 +116,72 @@ h2 {
   border: none !important;
 
 }
+
+
 .action:hover{
   background-color: #666666 !important;
   color: #fff;
-  padding-left: 3rem;
-  padding-right: 3rem;
+  /* padding-left: 3rem;
+  padding-right: 3rem; */
+}
+
+.actButton:hover{
+  background-color: transparent;
+  color: #fff;
 }
 .cardDetails{
   color: #fff;
+}
+
+h1, p {
+  font-family: Lato;
+}
+
+.modal-image{
+  max-height: 150px !important;
+}
+
+.mImage{
+  display: flex;
+}
+
+.project-detail-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 3.6rem;
+}
+
+.text-dark {
+  color: #000;
+}
+
+ul, ol {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.project-detail-list li {
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 0.6rem;
+  margin-top: 0.65rem;
+  overflow: hidden;
+}
+
+.project-detail-list li .left {
+  float: left;
+  font-weight: 600;
+}
+
+.project-detail-list li .right {
+  float: right;
 }

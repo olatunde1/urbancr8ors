@@ -20,7 +20,7 @@ function ResponsiveExample() {
 
         </Col>
         <Col xs={6} md={4}>
-          <img src={banner} alt='Thanks'/>
+          <img className='w-100' src={banner} alt='Thanks'/>
         </Col>
       </Row>
     </Container>
