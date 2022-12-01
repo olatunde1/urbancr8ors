@@ -10,6 +10,7 @@ import {
   } from 'mdb-react-ui-kit';
 import { Box } from '@mui/material';
 
+
 function Example() {
     const values = [true];
     const [fullscreen, setFullscreen] = useState(true);
@@ -307,6 +308,13 @@ return (
             </MDBCol>
             
         </MDBRow>
+
+        <div class="project-detail-meta">
+            <span class="left text-dark hidden-xs pull-sm-left">Share:</span>
+            <div class="social-list pull-sm-right">
+                  
+        </div>
+        </div>
        
     </Container>
     );
