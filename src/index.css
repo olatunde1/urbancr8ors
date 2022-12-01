@@ -93,13 +93,75 @@ h2 {
 } */
 
 .latest{
-  background-image: url(./components/images/slide1.jpg);
+  background-image: url(./components/images/project3.jpg);
   background-repeat:no-repeat;
-  object-fit: fill;
+  background-size: cover;
   margin-bottom: 6rem;
   padding-bottom: 6rem;
  
 }
+.latest .latestProjectCaption{
+  padding-top: 3rem;
+  margin-bottom: 4rem;
+  color:#fff;
+  font-weight: 800;
+}
+
+/* .scrollable-projects .vertical-title {
+  top: 7.4rem;
+}
+
+.vertical-title span {
+  display: block;
+  float: left;
+} */
+
+/* .vertical-title {
+  position: absolute;
+  white-space: nowrap;
+  width: 0;
+  top: -0.55rem;
+  left: 4.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+} */
+
+/* .vertical-centred {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  white-space: normal;
+  font-size: 1rem;
+} */
+
+/* ::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  background: #cee002;
+  border-radius: 10px;
+}
+
+::selection {
+  background-color: #cee002;
+  color: #fff;
+} */
+
+
 
 .eachCard {
   background-color: transparent;
@@ -109,8 +171,16 @@ h2 {
 .eachCard :hover{
   background-color: #cee002;
   color: #000;
-}
+  cursor: pointer;
+  border: none !important;
 
+}
+.action:hover{
+  background-color: #666666 !important;
+  color: #fff;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
 .cardDetails{
   color: #fff;
 }
