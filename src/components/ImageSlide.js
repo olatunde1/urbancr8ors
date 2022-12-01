@@ -1,5 +1,4 @@
 import Carousel from 'react-bootstrap/Carousel';
-import Container from '@mui/material/Container';
 import slide1 from '../components/images/slide1.jpg';
 import slide2 from '../components/images/slide2.jpg';
 import slide3 from '../components/images/slide3.jpg';

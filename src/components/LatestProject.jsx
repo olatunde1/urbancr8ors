@@ -10,7 +10,7 @@ import {
 } from 'mdb-react-ui-kit';
 import { Box } from '@mui/material';
 import { Container } from 'react-bootstrap';
-import 'boxicons';
+
 
 export default function App() {
   return (
